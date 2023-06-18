@@ -11,14 +11,17 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primario
 
-Violeta: #8B48BF
-Celeste brillante: #3CDDF3
+    **Violeta**: #8B48BF
+
+    **Celeste brillante**: #3CDDF3
 
 ### Neutro
 
-Azul grisáceo oscuro: #1E1E26
-Azul muy oscuro: #232851
-Variante gris claro: rgb (249, 249, 249)
+    **Azul grisáceo oscuro**: #1E1E26
+
+    **Azul muy oscuro**: #232851
+
+    **Variante gris claro**: rgb (249, 249, 249)
 
 ## Tipografia
 

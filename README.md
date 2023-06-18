@@ -4,25 +4,25 @@ Su desafío es crear esta página de destino y hacer que se parezca lo más posi
 
 Sus usuarios deberían poder:
 
-- Ver el diseño óptimo para el sitio según el tamaño de la pantalla de su dispositivo
+- Ver el diseño óptimo para el sitio según el tamaño de la pantalla de su dispositivo (**Mobile**: 480px, **Desktop**: 1440px)
 - Los aspectos que tendremos en cuenta para la corrección serán los siguientes:
-  -Estructura correcta de HTML
-  -Uso y correcta implementación de etiquetas semánticas
-  -Adaptabilidad a dos tipos de dispositivos
-  -Correcta implementación del fomulario
-  -Imagens, iconos, fuentes, background
-  -Implementación de Flexbox
-  -Buenas Practicas en el CSS
-  -Pseudoelementos y Pseudoclases
-  -(opcional) ---> Pequeñas animaciones
+  - Estructura correcta de HTML
+  - Uso y correcta implementación de etiquetas semánticas
+  - Adaptabilidad a dos tipos de dispositivos (**Mobile**: 480px, **Desktop**: 1440px)
+  - Correcta implementación del fomulario
+  - Imágenes, iconos, fuentes, background
+  - Implementación de Flexbox
+  - Buenas Practicas en el CSS
+  - Pseudoelementos y Pseudoclases
+  - (opcional) ---> Pequeñas animaciones
 
 ## Dónde encontrar todo
 
-Su tarea es construir el proyecto con los diseños dentro de la carpeta `/ diseño`. Encontrará una versión móvil y de escritorio del diseño.
+Su tarea es construir el proyecto con los diseños dentro de la carpeta `/ diseño`. Encontrará una versión mobile y de escritorio del diseño.
 
 El diseño para mobile esta en formato estático JPG. Si desea hacerle cambios esteticos lo puede hacer a su gusto
 
-Encontrará todos los recursos necesarios en la carpeta `/ img`. Los activos ya están optimizados.
+Encontrará todos los recursos necesarios en la carpeta `/ img`. Los archivos ya están optimizados.
 
 También hay un archivo `style-guide.md` que contiene la información necesaria, como la paleta de colores y las fuentes.
 

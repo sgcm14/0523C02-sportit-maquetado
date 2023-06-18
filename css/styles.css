@@ -96,6 +96,21 @@ ul {
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
+  gap: 50px;
+}
+
+#second_section h2 {
+  padding-right: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 114.6%;
+}
+
+#second_section p {
+  padding-right: 110px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.1%;
 }
 
 footer {
@@ -135,5 +150,17 @@ footer {
 
   #second_section {
     background-color: var(--violet);
+    padding: 30px 170px;
+    flex-direction: row;
+    gap: 80px;
   }
+
+  #second_section h2{
+    width: 90%;
+  }
+
+  #second_section p{
+    padding-right: 0px;
+  }
+  
 }

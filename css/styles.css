@@ -208,6 +208,24 @@ ul {
   flex-direction: column;
 }
 
+#fifth_section {
+  background-color: var(--lightblue);
+  color: var(--white);
+  padding: 30px 0px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+#fifth_section button {
+  width: 120px;
+  background-color: var(--blue);
+  color: var(--white);
+  margin-top: 40px;
+}
+
 footer {
   background-color: var(--grayishblue);
 }
@@ -282,5 +300,24 @@ footer {
 
   #cards {
     flex-direction: row;
+  }
+
+  #fifth_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px;
+    background-color: var(--violet);
+  }
+
+  #fifth_section #text{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+
+  #fifth_section button{
+    background-color: var(--white);
+    color: var(--violet);
   }
 }

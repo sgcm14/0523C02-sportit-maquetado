@@ -368,14 +368,21 @@ footer p {
     color: var(--violet);
   }
 
+  footer {
+    text-align: end;
+  }
+
   #container_footer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 30px;
   }
 
   #subscribe {
     order: 3;
+    gap: 10px;
+    padding: 0px;
   }
 
   #nav_footer {
@@ -388,5 +395,18 @@ footer p {
 
   #business {
     order: 1;
+  }
+
+  #business nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #business ul {
+    padding: 50px 0px 0px;
+  }
+
+  footer p {
+    padding: 30px 120px 30px 0px;
   }
 }

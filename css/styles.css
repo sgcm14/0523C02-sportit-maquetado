@@ -32,7 +32,7 @@ button:hover {
   cursor: pointer;
 }
 
-.shadow:hover {
+.shadow {
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   transition: "box-shadow" 0.5s;
 }
@@ -99,78 +99,78 @@ ul {
 }
 
 #principal_section p {
+  color: var(--black);
   font-style: normal;
   font-weight: 500;
   font-size: 16.5584px;
   line-height: 157.1%;
-  color: var(--black);
   padding: 20px 0px;
 }
 
 #second_section {
   background-color: var(--lightblue);
   color: var(--white);
-  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding: 30px 20px;
 }
 
 #second_section h2 {
-  padding-right: 20px;
   font-weight: 700;
   font-size: 36px;
   line-height: 114.6%;
+  padding-right: 20px;
 }
 
 #second_section p {
-  padding-right: 70px;
   font-weight: 500;
   font-size: 16px;
   line-height: 151.1%;
+  padding-right: 70px;
 }
 
 #third_section {
-  padding: 40px 0 40px 20px;
   display: flex;
   flex-wrap: wrap;
+  padding: 40px 0 40px 20px;
 }
 
 #third_section span {
+  align-items: center;
   background-color: var(--violet);
   border-radius: 30px;
-  width: 59px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--white);
+  display: flex;
   font-weight: 700;
   font-size: 16px;
+  height: 40px;
+  justify-content: center;
   line-height: 23px;
+  width: 59px;
 }
 
 #third_section h5 {
+  color: var(--blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 23px;
-  color: var(--blue);
 }
 
 #third_section p {
-  padding: 30px 20px;
+  color: var(--gray);
   font-weight: 500;
   font-size: 16.2984px;
   line-height: 26px;
-  color: var(--gray);
+  padding: 30px 20px;
 }
 
 .header_third_section {
-  display: flex;
   align-items: center;
-  gap: 10px;
   background-color: rgba(139, 72, 191, 0.3);
   border-radius: 50px 0px 0px 50px;
+  display: flex;
+  gap: 10px;
 }
 
 #fourth_section {
@@ -188,23 +188,23 @@ ul {
 
 #fourth_section article {
   background-color: var(--lightgray);
-  position: relative;
   margin: 40px 0px;
   padding: 20px 10px;
+  position: relative;
 }
 
 #fourth_section img {
-  top: -40px;
-  position: absolute;
   left: 42%;
+  position: absolute;
+  top: -40px;
 }
 
 #fourth_section h6 {
-  padding: 30px 0 10px 0;
+  color: var(--blue);
   font-weight: 700;
   font-size: 16.0714px;
   line-height: 156.6%;
-  color: var(--blue);
+  padding: 30px 0 10px 0;
 }
 
 #fourth_section p {
@@ -222,10 +222,10 @@ ul {
 #fifth_section {
   background-color: var(--lightblue);
   color: var(--white);
-  padding: 30px 0px;
   font-size: 40px;
-  line-height: 48px;
   letter-spacing: -0.005em;
+  line-height: 48px;
+  padding: 30px 0px;
   text-align: center;
 }
 
@@ -234,10 +234,10 @@ ul {
 }
 
 #fifth_section button {
-  width: 120px;
   background-color: var(--blue);
   color: var(--white);
   margin-top: 40px;
+  width: 120px;
 }
 
 footer {
@@ -246,8 +246,8 @@ footer {
 }
 
 #subscribe form {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   padding: 50px 40px;
 }
@@ -268,10 +268,10 @@ footer {
 }
 
 #subscribe button {
-  width: 50px;
-  height: 35px;
   background-color: var(--violet);
   color: var(--white);
+  height: 35px;
+  width: 50px;
 }
 
 #nav_footer nav {
@@ -291,11 +291,11 @@ footer {
 }
 
 footer p {
-  padding: 30px 0px;
+  color: var(--gray);
   font-weight: 500;
   font-size: 12.5px;
   line-height: 18px;
-  color: var(--gray);
+  padding: 30px 0px;
 }
 
 
@@ -309,8 +309,8 @@ footer p {
   }
 
   #nav_desktop {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 150px;
   }
 
@@ -320,10 +320,10 @@ footer p {
   }
 
   #principal_section {
-    flex-direction: row;
     align-items: center;
-    padding: 30px 120px;
+    flex-direction: row;
     gap: 190px;
+    padding: 30px 120px;
   }
 
   #principal_section article {
@@ -332,9 +332,9 @@ footer p {
 
   #second_section {
     background-color: var(--violet);
-    padding: 30px 170px;
     flex-direction: row;
     gap: 80px;
+    padding: 30px 170px;
   }
 
   #second_section h2 {
@@ -346,9 +346,9 @@ footer p {
   }
 
   #third_section {
+    background-color: var(--lightgray);
     justify-content: center;
     padding: 40px 120px;
-    background-color: var(--lightgray);
   }
 
   #third_section article {
@@ -376,16 +376,16 @@ footer p {
   }
 
   #fifth_section {
+    background-color: var(--violet);
     display: flex;
     justify-content: space-around;
     padding: 100px 50px;
-    background-color: var(--violet);
   }
 
   #fifth_section #text {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
+    gap: 10px;
     width: 40%;
   }
 
@@ -399,9 +399,9 @@ footer p {
   }
 
   #container_footer {
+    align-items: flex-start;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
     padding-top: 30px;
   }
 
